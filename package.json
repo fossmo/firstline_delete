@@ -1,0 +1,31 @@
+{
+  "name": "firstname_delete",
+  "version": "1.0.0",
+  "description": "Reads the first line of a file, and deletes it.",
+  "main": "index.js",
+  "directories": {
+    "test": "test/test.js"
+  },
+  "scripts": {
+    "lint": "eslint . --ext js,json --ignore-pattern !.*",
+    "test": "mocha"
+  },
+  "keywords": [
+    "read",
+    "file",
+    "delete",
+    "content",
+    "io",
+    "async"
+  ],
+  "author": "Pål Fossmo (www.proglab.no)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-json": "^1.2.0",
+    "mocha": "^5.1.1",
+    "rimraf": "^2.6.2"
+  }
+}
