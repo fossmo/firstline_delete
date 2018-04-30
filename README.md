@@ -10,7 +10,7 @@ Firstline_delete is a [npm](http://npmjs.org) async module for [NodeJS](http://n
 
 ## Usage
 
-`firstline(filePath, [lineEnding])`
+`firstline_delete(filePath, [lineEnding])`
 
 - filePath (String): the full path to the file you want to read.
 - lineEnding (String, optional): the character used for line ending (defaults to `\n`).

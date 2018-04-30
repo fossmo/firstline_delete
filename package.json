@@ -1,5 +1,5 @@
 {
-  "name": "firstname_delete",
+  "name": "firstline_delete",
   "version": "1.0.0",
   "description": "Reads the first line of a file, and deletes it.",
   "main": "index.js",
